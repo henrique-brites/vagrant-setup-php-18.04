@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "---- Iniciando instalacao do ambiente de Desenvolvimento PHP Brites_H ---"
+echo "---- Iniciando instalacao do ambiente de Desenvolvimento PHP Henrique Brites ---"
 
 echo '----------- Máquina virtual de provisionamento ----------------'
 sudo sed -i '/tty/!s/mesg n/tty -s \\&\\& mesg n/' /root/.profile
